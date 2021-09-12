@@ -1,0 +1,13 @@
+server:
+  port:8073
+
+spring:
+  application:
+    name: ECOM_CONFIG_SERVER
+  cloud:
+    config:
+      server:
+        git:
+          url: https://github.com/NahidAkhter/spring_microservices_project_ecommerce.git
+          username: nahid.fast@gmail.com
+          password: Sx4dlz@567
